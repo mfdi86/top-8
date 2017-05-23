@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.banner {
+  background-color: #f7c28a;
+  color: #c7743f;
+  padding: .05px 1px .05px 10px;
+  margin: 5px;
+  }
+
+.number-of-friends {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.images {
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+img {
+  border: 3px solid #2743A6;
+  width: 125px;
+  height: 125px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding:0px;
+}
+
+p {
+  font: bold 12px Arial;
+  margin: 0px;
+  padding: 5px;
+}
+
+.kittens > p:first-child {
+  color: #2743A6;
+}
+
+.kittens > p {
+  color: green;
+  margin:0px 10px 0px 10px;
+  padding:0px;
+}
+
+.kittens {
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
+
+}
+
+.view-friends {
+  font: bold 12px Arial;
+  color: red;
+  float: right;
+}
